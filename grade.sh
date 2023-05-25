@@ -24,6 +24,8 @@ javac ../grading-area/ListExamples.java 2> ../error.output.txt
 cd ../grading-area
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java 2> ../error2.output.txt
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples
+
+grep 
 # Draw a picture/take notes on the directory structure that's set up after
 # getting to this point
 
